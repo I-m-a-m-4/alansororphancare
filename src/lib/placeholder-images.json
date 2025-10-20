@@ -1,0 +1,34 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-image-1",
+      "description": "Happy children",
+      "imageUrl": "https://images.unsplash.com/photo-1509339907131-aa768277033a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYXBweSUyMGNoaWxkcmVufGVufDB8fHx8MTc2MDkwMDExMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy children"
+    },
+    {
+      "id": "about-us-mission",
+      "description": "Volunteers working together with a sense of purpose.",
+      "imageUrl": "https://images.unsplash.com/photo-1727208863988-ede35969f589?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWFtd29yayUyMGNvbW11bml0eXxlbnwwfHx8fDE3NjA4OTUxMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teamwork community"
+    },
+    {
+      "id": "about-us-vision",
+      "description": "A child looking towards a bright future.",
+      "imageUrl": "https://images.unsplash.com/photo-1561969326-367239b5caed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMGZ1dHVyZXxlbnwwfHx8fDE3NjA4OTUxMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child future"
+    },
+    {
+      "id": "program-education",
+      "description": "Children learning in a classroom setting.",
+      "imageUrl": "https://images.unsplash.com/photo-1573894998033-c0cef4ed722b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGlsZHJlbiUyMGNsYXNzcm9vbXxlbnwwfHx8fDE3NjA4OTUxMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children classroom"
+    },
+    {
+      "id": "program-health",
+      "description": "A doctor checking a child's health.",
+      "imageUrl": "https://images.unsplash.com/photo-1576765975429-d2d8cf8c0ba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlsZCUyMGRvY3RvcnxlbnwwfHx8fDE3NjA4MTQxOTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child doctor"
+    }
+  ]
+}
