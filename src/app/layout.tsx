@@ -6,6 +6,7 @@ import { Footer } from '@/components/layout/Footer';
 import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from '@/components/ThemeProvider';
 import { TopLoader } from '@/components/TopLoader';
+import { Suspense } from 'react';
 
 const siteConfig = {
   name: 'Al-Ansor Orphan Care Foundation',
@@ -85,7 +86,9 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
         >
-          <TopLoader />
+          <Suspense fallback={null}>
+            <TopLoader />
+          </Suspense>
           <div className="relative min-h-screen overflow-hidden">
               <div className="pointer-events-none absolute inset-0">
                   <div className="absolute -top-1/4 left-1/2 -translate-x-1/2 w-[140vmax] h-[140vmax] rounded-full bg-primary/5 blur-[120px]"></div>

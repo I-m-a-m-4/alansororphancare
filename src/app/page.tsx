@@ -392,6 +392,85 @@ export default function Home() {
         </div>
       </section>
       
+      <section className="relative sm:py-10 pt-8 pb-8">
+        <section id="upcoming-events" className="relative z-10 max-w-7xl md:px-8 mt-10 mr-auto ml-auto pr-6 pl-6">
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+            <Link href="/get-involved" className="inline-flex items-center gap-2 rounded-xl border border-primary/30 bg-primary/10 px-4 py-2 text-sm font-medium text-primary hover:bg-primary/15 transition">
+              <Calendar className="h-4 w-4" />
+              <span className="tracking-wide">Explore Programs</span>
+            </Link>
+            <a href="mailto:alansororphancare@gmail.com" className="inline-flex items-center gap-2 bg-secondary hover:bg-muted transition text-sm font-medium text-muted-foreground border-border border rounded-xl pt-2 pr-4 pb-2 pl-4">
+              <Mail className="h-4 w-4" />
+              <span className="tracking-wide">Sign up for our newsletter</span>
+            </a>
+          </div>
+
+          <h2 className="mt-6 text-4xl md:text-5xl font-semibold tracking-tight text-foreground/95 uppercase">Ways to Give</h2>
+
+          <div className="mt-6 space-y-4">
+            <article className="group relative overflow-hidden rounded-2xl border bg-card/50 backdrop-blur px-5 py-4">
+              <div className="grid grid-cols-1 md:grid-cols-[180px_1fr_auto] items-center gap-4">
+                <div className="flex items-center md:block justify-between">
+                  <div className="flex gap-2 text-[11px] uppercase text-muted-foreground tracking-wide items-center">
+                    <Heart className="h-3.5 w-3.5"/>
+                    <span className="">Monthly</span>
+                  </div>
+                  <p className="md:mt-2 text-2xl md:text-3xl font-semibold tracking-tight text-foreground/95">$50</p>
+                </div>
+                <div>
+                  <h3 className="mt-1 text-base md:text-lg font-semibold tracking-tight text-foreground">Sponsor a Child</h3>
+                  <p className="mt-1 text-sm text-muted-foreground">Provide long-term support for an orphan's education and well-being.</p>
+                </div>
+                <a href="/get-involved#donate" aria-label="Sponsor a Child" className="justify-self-end h-10 w-10 grid place-items-center rounded-xl border bg-secondary hover:bg-muted text-muted-foreground transition">
+                  <ChevronRight className="h-4 w-4" />
+                </a>
+              </div>
+            </article>
+
+            <article className="group relative overflow-hidden rounded-2xl border border-primary/30 bg-primary/10 backdrop-blur shadow-lg shadow-primary/20">
+              <div className="relative px-5 py-5">
+                <div className="grid grid-cols-1 md:grid-cols-[180px_1fr_auto] items-center gap-4">
+                  <div className="flex items-center md:block justify-between">
+                     <div className="flex gap-2 text-[11px] uppercase text-primary tracking-wide items-center">
+                        <ScanEye className="h-3.5 w-3.5" />
+                        <span className="">Flexible</span>
+                      </div>
+                    <p className="md:mt-2 text-3xl md:text-4xl font-semibold tracking-tight text-foreground">Any Amount</p>
+                  </div>
+                  <div>
+                    <h3 className="mt-1 text-lg md:text-2xl font-semibold tracking-tight text-foreground">General Donation</h3>
+                    <p className="mt-1 text-sm text-foreground/80">Contribute to our general fund to support where it's needed most.</p>
+                  </div>
+                  <a href="/get-involved#donate" aria-label="Donate" className="h-10 w-10 hover:bg-white/10 grid place-items-center transition group bg-white/5 border-white/10 border rounded-xl text-foreground">
+                    <Play className="h-4 w-4" />
+                  </a>
+                </div>
+              </div>
+              <span className="pointer-events-none absolute -inset-px rounded-2xl ring-1 ring-primary/30"></span>
+            </article>
+
+            <article className="group relative overflow-hidden rounded-2xl border bg-card/50 backdrop-blur px-5 py-4">
+              <div className="grid grid-cols-1 md:grid-cols-[180px_1fr_auto] items-center gap-4">
+                <div className="flex items-center md:block justify-between">
+                  <div className="flex gap-2 text-[11px] uppercase text-muted-foreground tracking-wide items-center">
+                    <Handshake className="h-3.5 w-3.5" />
+                    <span className="">Time</span>
+                  </div>
+                  <p className="md:mt-2 text-2xl md:text-3xl font-semibold tracking-tight text-foreground/95">Volunteer</p>
+                </div>
+                <div>
+                  <h3 className="mt-1 text-base md:text-lg font-semibold tracking-tight text-foreground">Give Your Time</h3>
+                  <p className="mt-1 text-sm text-muted-foreground">Give your time and skills to make a direct impact.</p>
+                </div>
+                <a href="/get-involved#volunteer" aria-label="Volunteer" className="justify-self-end h-10 w-10 grid place-items-center rounded-xl border bg-secondary hover:bg-muted text-muted-foreground transition">
+                  <ChevronRight className="h-4 w-4" />
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+      </section>
+
       <section className="relative z-10 mt-32">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="text-center pb-14">
