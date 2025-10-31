@@ -294,7 +294,7 @@ export default function Home() {
             
               <div className="flex flex-col w-full max-w-sm aspect-[3/5] hover:scale-105 transition-all duration-500 hover:shadow-2xl group bg-card/50 border rounded-2xl p-8 shadow-lg backdrop-blur-none justify-between">
                 <div className="flex-1 bg-cover bg-center border rounded-2xl p-8 items-center justify-center border-stone-600/50 shadow-inner relative overflow-hidden group-hover:border-primary/70 transition-all duration-300">
-                   <Image src="https://images.unsplash.com/photo-1509099652299-503c3a476947?q=80&w=800" alt="Happy child" fill objectFit="cover" className="rounded-2xl" data-ai-hint="happy child" />
+                   <Image src="/happy-child.jpg" alt="Happy child" fill objectFit="cover" className="rounded-2xl" data-ai-hint="happy child" />
                 </div>
                 <div className="space-y-6 mt-8">
                   <div className="flex items-center justify-between">

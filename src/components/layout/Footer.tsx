@@ -111,8 +111,8 @@ export function Footer() {
                         <a href="#" className="h-10 w-10 rounded-xl bg-secondary hover:bg-muted border border-border grid place-items-center transition group cursor-pointer">
                           <Twitter className="w-5 h-5 text-muted-foreground group-hover:text-foreground" />
                         </a>
-                        <a href="https://wa.me/2347016160920" target="_blank" rel="noopener noreferrer" className="h-10 rounded-xl bg-secondary hover:bg-muted border border-border grid place-items-center transition group px-3 cursor-pointer">
-                          <WhatsAppIcon /> <span className="ml-2 text-muted-foreground group-hover:text-foreground text-sm">Contact us via WhatsApp</span>
+                        <a href="https://wa.me/2347016160920" target="_blank" rel="noopener noreferrer" className="h-10 w-10 md:w-auto md:px-3 rounded-xl bg-secondary hover:bg-muted border border-border flex items-center justify-center transition group cursor-pointer">
+                          <WhatsAppIcon /> <span className="hidden md:inline ml-2 text-muted-foreground group-hover:text-foreground text-sm">Contact us via WhatsApp</span>
                         </a>
                       </>
                     )}
