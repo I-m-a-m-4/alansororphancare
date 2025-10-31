@@ -29,6 +29,252 @@
       "description": "A doctor checking a child's health.",
       "imageUrl": "https://images.unsplash.com/photo-1576765975429-d2d8cf8c0ba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlsZCUyMGRvY3RvcnxlbnwwfHx8fDE3NjA4MTQxOTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "child doctor"
+    },
+    {
+      "id": "get-involved-donate",
+      "description": "Close-up of a donation box.",
+      "imageUrl": "https://images.unsplash.com/photo-1593113646773-028c64a8f1b8?q=80&w=1170",
+      "imageHint": "donation box"
+    },
+    {
+      "id": "get-involved-volunteer",
+      "description": "A group of happy volunteers.",
+      "imageUrl": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=1171",
+      "imageHint": "happy volunteers"
+    },
+    {
+      "id": "get-involved-partner",
+      "description": "Two people shaking hands in a business agreement.",
+      "imageUrl": "https://images.unsplash.com/photo-1562577309-2592ab84b1bc?q=80&w=1332",
+      "imageHint": "business handshake"
+    },
+    {
+      "id": "about-us-hero",
+      "description": "A group of diverse women smiling and working together",
+      "imageUrl": "https://images.unsplash.com/photo-1573496130407-57329f01f769?q=80&w=1169",
+      "imageHint": "diverse women"
+    },
+    {
+      "id": "contact-hero",
+      "description": "A friendly person on the phone providing support.",
+      "imageUrl": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?q=80&w=1170",
+      "imageHint": "customer support"
+    },
+    {
+      "id": "get-involved-hero",
+      "description": "A community coming together to help.",
+      "imageUrl": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?q=80&w=1170",
+      "imageHint": "community help"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Children in a classroom raising their hands.",
+      "imageUrl": "https://images.unsplash.com/photo-1573894997713-de07a124df43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2hpbGRyZW4lMjBjbGFzc3Jvb218ZW58MHx8fHwxNzYxOTA4MTk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children classroom"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Volunteer giving food to a child.",
+      "imageUrl": "https://images.unsplash.com/photo-1588822534638-028d5ddc07ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx2b2x1bnRlZXIlMjBoZWxwaW5nfGVufDB8fHx8MTc2MTkyODA0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "volunteer helping"
+    },
+    {
+      "id": "gallery-3",
+      "description": "A group of happy children playing together.",
+      "imageUrl": "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGFwcHklMjBjaGlsZHJlbnxlbnwwfHx8fDE3NjE4NTM3Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy children"
+    },
+    {
+      "id": "gallery-4",
+      "description": "A smiling child holding a book.",
+      "imageUrl": "https://images.unsplash.com/photo-1599689868384-59cb2b01bb21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGlsZCUyMHJlYWRpbmd8ZW58MHx8fHwxNzYxOTA2MzIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child reading"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Community members building a house.",
+      "imageUrl": "https://images.unsplash.com/photo-1524247108137-732e0f642303?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHklMjBidWlsZGluZ3xlbnwwfHx8fDE3NjE5MjgwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "community building"
+    },
+    {
+      "id": "gallery-6",
+      "description": "A child being taught by a volunteer.",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1551887373-6edba6dacbb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGlsZCUyMGxlYXJuaW5nfGVufDB8fHx8MTc2MTkxMDU5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child learning"
+    },
+    {
+      "id": "gallery-7",
+      "description": "Hands holding a plant sprout, symbolizing growth.",
+      "imageUrl": "https://images.unsplash.com/photo-1603621061592-fbc8b818f31f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Z3Jvd3RoJTIwaG9wZXxlbnwwfHx8fDE3NjE5MjgwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "growth hope"
+    },
+    {
+      "id": "gallery-8",
+      "description": "Children sharing a meal.",
+      "imageUrl": "https://images.unsplash.com/photo-1588075592719-8ca3d8075b88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMGVhdGluZ3xlbnwwfHx8fDE3NjE4NTUyMDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children eating"
+    },
+    {
+      "id": "gallery-9",
+      "description": "A doctor giving a child a check-up.",
+      "imageUrl": "https://images.unsplash.com/photo-1758691463080-30a990ef61bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGlsZCUyMGhlYWx0aGNhcmV8ZW58MHx8fHwxNzYxOTI4MDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child healthcare"
+    },
+    {
+      "id": "gallery-10",
+      "description": "A group of diverse volunteers.",
+      "imageUrl": "https://images.unsplash.com/photo-1713977331626-722cd8400b99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkaXZlcnNlJTIwdm9sdW50ZWVyc3xlbnwwfHx8fDE3NjE5MjgwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "diverse volunteers"
+    },
+    {
+      "id": "gallery-11",
+      "description": "A child laughing.",
+      "imageUrl": "https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlsZCUyMGxhdWdoaW5nfGVufDB8fHx8MTc2MTkwMzU5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child laughing"
+    },
+    {
+      "id": "gallery-12",
+      "description": "Volunteers sorting donations.",
+      "imageUrl": "https://images.unsplash.com/photo-1650407423258-a2e2eb7ec2a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx2b2x1bnRlZXJzJTIwc29ydGluZ3xlbnwwfHx8fDE3NjE5MjgwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "volunteers sorting"
+    },
+    {
+      "id": "gallery-13",
+      "description": "A group of kids in a circle.",
+      "imageUrl": "https://images.unsplash.com/photo-1627423896085-e3e694d88e40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZHJlbiUyMGNvbW11bml0eXxlbnwwfHx8fDE3NjE5MjgwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children community"
+    },
+    {
+      "id": "gallery-14",
+      "description": "Close-up of hands holding.",
+      "imageUrl": "https://images.unsplash.com/photo-1593701805506-523fb08488d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYW5kcyUyMGhvbGRpbmd8ZW58MHx8fHwxNzYxOTI0NzQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hands holding"
+    },
+    {
+      "id": "gallery-15",
+      "description": "A child painting.",
+      "imageUrl": "https://images.unsplash.com/photo-1666710988451-ba4450498967?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZCUyMHBhaW50aW5nfGVufDB8fHx8MTc2MTg4ODg2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child painting"
+    },
+    {
+      "id": "gallery-16",
+      "description": "A volunteer reading to a group of children.",
+      "imageUrl": "https://images.unsplash.com/photo-1541802802036-1d572ba70147?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx2b2x1bnRlZXIlMjByZWFkaW5nfGVufDB8fHx8MTc2MTkyODA0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "volunteer reading"
+    },
+    {
+      "id": "gallery-17",
+      "description": "A group of children playing soccer.",
+      "imageUrl": "https://images.unsplash.com/photo-1621354598022-16599af1b8b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGlsZHJlbiUyMHBsYXlpbmd8ZW58MHx8fHwxNzYxODk2NTQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children playing"
+    },
+    {
+      "id": "gallery-18",
+      "description": "A close-up of a child's smiling face.",
+      "imageUrl": "https://images.unsplash.com/photo-1609043238951-9bb29775f27c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGlsZCUyMHNtaWxpbmd8ZW58MHx8fHwxNzYxOTEzNDgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child smiling"
+    },
+    {
+      "id": "gallery-19",
+      "description": "Volunteers serving food.",
+      "imageUrl": "https://images.unsplash.com/photo-1516554646385-7642248096d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzZXJ2aW5nJTIwZm9vZHxlbnwwfHx8fDE3NjE4MzQxODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "serving food"
+    },
+    {
+      "id": "gallery-20",
+      "description": "A child receiving a gift.",
+      "imageUrl": "https://images.unsplash.com/photo-1730389658758-e61f3293b94d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaGlsZCUyMGdpZnR8ZW58MHx8fHwxNzYxOTI4MDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child gift"
+    },
+    {
+      "id": "gallery-21",
+      "description": "A group hug with children and volunteers.",
+      "imageUrl": "https://images.unsplash.com/photo-1609234656432-603fd648adf8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Z3JvdXAlMjBodWd8ZW58MHx8fHwxNzYxOTI4MDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "group hug"
+    },
+    {
+      "id": "gallery-22",
+      "description": "Children watering plants.",
+      "imageUrl": "https://images.unsplash.com/photo-1652040004005-249f3db952ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjaGlsZHJlbiUyMGdhcmRlbmluZ3xlbnwwfHx8fDE3NjE5MjgwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children gardening"
+    },
+    {
+      "id": "gallery-23",
+      "description": "A volunteer teaching music.",
+      "imageUrl": "https://images.unsplash.com/photo-1758687126724-0fcfdefc5a36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWFjaGluZyUyMG11c2ljfGVufDB8fHx8MTc2MTkyODA0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teaching music"
+    },
+    {
+      "id": "gallery-24",
+      "description": "A community gathering.",
+      "imageUrl": "https://images.unsplash.com/photo-1760454477189-9af9947786ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb21tdW5pdHklMjBnYXRoZXJpbmd8ZW58MHx8fHwxNzYxOTE4MzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "community gathering"
+    },
+    {
+      "id": "gallery-25",
+      "description": "A child writing on a chalkboard.",
+      "imageUrl": "https://images.unsplash.com/photo-1616089804112-f0a475d1b193?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGlsZCUyMHdyaXRpbmd8ZW58MHx8fHwxNzYxOTA2MzIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child writing"
+    },
+    {
+      "id": "gallery-26",
+      "description": "A healthcare worker with a child.",
+      "imageUrl": "https://images.unsplash.com/photo-1624727828489-a1e03b79bba8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxoZWFsdGhjYXJlJTIwd29ya2VyfGVufDB8fHx8MTc2MTg0MTczNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthcare worker"
+    },
+    {
+      "id": "gallery-27",
+      "description": "A group of volunteers painting a mural.",
+      "imageUrl": "https://images.unsplash.com/photo-1652776580397-71e53feb7f56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx2b2x1bnRlZXJzJTIwcGFpbnRpbmd8ZW58MHx8fHwxNzYxOTIyNDA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "volunteers painting"
+    },
+    {
+      "id": "gallery-28",
+      "description": "Children performing on a small stage.",
+      "imageUrl": "https://images.unsplash.com/photo-1758316289766-d483969b7f90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGlsZHJlbiUyMHBlcmZvcm1pbmd8ZW58MHx8fHwxNzYxOTI4MDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children performing"
+    },
+    {
+      "id": "gallery-29",
+      "description": "Child smiling at camera",
+      "imageUrl": "https://images.unsplash.com/photo-1577896852336-e749dd04f202?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGlsZCUyMHNtaWxpbmd8ZW58MHx8fHwxNzYxOTEzNDgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child smiling"
+    },
+    {
+      "id": "gallery-30",
+      "description": "Group of children playing",
+      "imageUrl": "https://images.unsplash.com/photo-1613794713137-a78aba4be84a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZHJlbiUyMHBsYXlpbmd8ZW58MHx8fHwxNzYxODk2NTQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children playing"
+    },
+    {
+      "id": "gallery-31",
+      "description": "Volunteer helping child with homework",
+      "imageUrl": "https://images.unsplash.com/photo-1623287073837-5b07d79739a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2b2x1bnRlZXIlMjBob21ld29ya3xlbnwwfHx8fDE3NjE5MjgwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "volunteer homework"
+    },
+    {
+      "id": "gallery-32",
+      "description": "Happy kid eating a meal",
+      "imageUrl": "https://images.unsplash.com/photo-1629646546565-47267ed247b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxraWQlMjBlYXRpbmd8ZW58MHx8fHwxNzYxOTI4MDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kid eating"
+    },
+    {
+      "id": "gallery-33",
+      "description": "Children in a garden",
+      "imageUrl": "https://images.unsplash.com/photo-1723511791980-51b9dc7fd2b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZHJlbiUyMGdhcmRlbnxlbnwwfHx8fDE3NjE5MjgwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children garden"
+    },
+    {
+      "id": "gallery-34",
+      "description": "Smiling volunteer",
+      "imageUrl": "https://images.unsplash.com/photo-1758599668337-58bfa42683ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzbWlsaW5nJTIwdm9sdW50ZWVyfGVufDB8fHx8MTc2MTkyODA0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smiling volunteer"
+    },
+    {
+      "id": "gallery-35",
+      "description": "Kids holding hands",
+      "imageUrl": "https://images.unsplash.com/photo-1653979025259-780e85b572eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxraWRzJTIwaGFuZHN8ZW58MHx8fHwxNzYxOTI4MDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kids hands"
     }
   ]
 }

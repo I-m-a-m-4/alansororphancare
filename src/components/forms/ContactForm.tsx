@@ -42,14 +42,12 @@ export function ContactForm() {
         description: "Thank you for contacting us. We will get back to you shortly.",
       });
 
-      // IMPORTANT: Set up your EmailJS account and add these environment variables to .env.local
-      // NEXT_PUBLIC_EMAILJS_SERVICE_ID
-      // NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
-      // NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+      // IMPORTANT: Set up your EmailJS account and add these environment variables.
+      // See the guide in the conversation for how to get these keys.
       try {
-        if (formRef.current) {
+        if (formRef.current && process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID) {
           await emailjs.sendForm(
-            process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+            process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
             process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
             formRef.current,
             process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!

@@ -1,3 +1,4 @@
+
 import type { Metadata } from 'next';
 import './globals.css';
 import { cn } from '@/lib/utils';
@@ -9,11 +10,11 @@ import { TopLoader } from '@/components/TopLoader';
 import { Suspense } from 'react';
 
 const siteConfig = {
-  name: 'Al-Ansor Orphan Care Foundation',
-  description: 'A Nigerian faith-based non-profit dedicated to uplifting Muslim orphans through compassionate care, quality education, and community support. Join us to make a difference.',
+  name: 'Al-Ansor Orphan Care',
+  description: 'A Nigerian faith-based non-profit dedicated to uplifting Muslim orphans in Ibadan through compassionate care, quality education, and community support. Join us to make a difference.',
   url: 'https://alansororphancare.com',
   ogImage: 'https://alansororphancare.com/og-image.png', // You should create this image
-  keywords: ['Muslim orphan care Nigeria', 'Islamic charity for orphans', 'sponsor an orphan Nigeria', 'Al-Ansor Foundation', 'orphanage in Ibadan', 'Muslim NGO Nigeria', 'Zakat for orphans', 'Sadaqa for orphans'],
+  keywords: ['Muslim orphan care Nigeria', 'Islamic charity for orphans', 'sponsor an orphan Nigeria', 'Al-Ansor Foundation', 'orphanage in Ibadan', 'Muslim NGO Nigeria', 'Zakat for orphans', 'Sadaqa for orphans', 'charity organization Ibadan', 'support orphans Ibadan'],
 }
 
 export const metadata: Metadata = {
@@ -73,11 +74,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <meta name="google-site-verification" content="8MDZZ080xhumI2btjsAq0n9W_DqmmDVBDzFAr7Va5Bg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
       </head>
       <body className={cn("min-h-screen bg-background antialiased", "font-inter")}>
         <ThemeProvider

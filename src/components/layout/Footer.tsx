@@ -1,6 +1,8 @@
+
 "use client";
 
 import Link from 'next/link';
+import React, { useState, useEffect } from 'react';
 import { ArrowUp, Instagram, Facebook, Twitter } from 'lucide-react';
 
 const navLinks = [
@@ -23,24 +25,33 @@ const navLinks = [
   {
     title: 'Learn',
     links: [
-      { href: '/islamic-teachings', label: 'Islamic Teachings on Orphans' },
-      { href: '/resources', label: 'Resources' },
       { href: '/blog', label: 'Blog' },
     ]
   },
   {
     title: 'Support',
     links: [
-      { href: '/get-involved#donate', label: 'Donate' },
+      { href: '/get-involved#ways-to-give', label: 'Donate' },
       { href: '/get-involved#volunteer', label: 'Volunteer' },
       { href: '/get-involved#partner', label: 'Partner With Us' },
-      { href: '/contact', label: 'Contact Us' },
     ]
   },
 ];
 
+const WhatsAppIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+  </svg>
+);
+
 
 export function Footer() {
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
     const handleScrollTop = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
@@ -57,12 +68,12 @@ export function Footer() {
           <div className="md:p-12 border-border border-b pt-8 pr-8 pb-8 pl-8">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-3 group">
                   <div className="h-9 w-9 shadow-primary/10 grid place-items-center bg-[conic-gradient(from_315deg,var(--tw-gradient-stops))] from-primary via-primary-light to-primary-dark rounded-lg shadow-lg">
-                    <span className="text-base font-semibold text-primary-foreground tracking-tight">AC</span>
+                    <span className="text-white/90 text-[13px] font-semibold tracking-tight">AC</span>
                   </div>
-                  <div className="text-2xl md:text-3xl font-semibold tracking-tight leading-none">
-                    <span className="text-foreground/95">Al-Ansor </span><span className="text-primary">Orphan Care Foundation</span>
+                  <div className="font-semibold tracking-tight leading-none text-xl">
+                     <span className="text-base md:text-xl">Al-Ansor </span><span className="text-primary text-base md:text-xl">Orphan Care</span>
                   </div>
                 </div>
                 <p className="text-lg text-muted-foreground max-w-md">
@@ -89,15 +100,22 @@ export function Footer() {
                 <div className="flex gap-3 items-center">
                   <span className="text-sm text-muted-foreground">Follow us:</span>
                   <div className="flex items-center gap-2">
-                    <a href="https://instagram.com/alansororphancare" target="_blank" rel="noopener noreferrer" className="h-10 w-10 bg-secondary hover:bg-muted grid place-items-center transition group border-border border rounded-xl">
-                      <Instagram className="w-5 h-5 text-muted-foreground group-hover:text-foreground" />
-                    </a>
-                    <a href="https://facebook.com/alansororphancare" target="_blank" rel="noopener noreferrer" className="h-10 w-10 rounded-xl bg-secondary hover:bg-muted border border-border grid place-items-center transition group">
-                      <Facebook className="w-5 h-5 text-muted-foreground group-hover:text-foreground" />
-                    </a>
-                    <a href="#" className="h-10 w-10 rounded-xl bg-secondary hover:bg-muted border border-border grid place-items-center transition group">
-                      <Twitter className="w-5 h-5 text-muted-foreground group-hover:text-foreground" />
-                    </a>
+                    {isClient && (
+                      <>
+                        <a href="https://instagram.com/alansororphancare" target="_blank" rel="noopener noreferrer" className="h-10 w-10 bg-secondary hover:bg-muted grid place-items-center transition group border-border border rounded-xl cursor-pointer">
+                          <Instagram className="w-5 h-5 text-muted-foreground group-hover:text-foreground" />
+                        </a>
+                        <a href="https://facebook.com/alansororphancare" target="_blank" rel="noopener noreferrer" className="h-10 w-10 rounded-xl bg-secondary hover:bg-muted border border-border grid place-items-center transition group cursor-pointer">
+                          <Facebook className="w-5 h-5 text-muted-foreground group-hover:text-foreground" />
+                        </a>
+                        <a href="#" className="h-10 w-10 rounded-xl bg-secondary hover:bg-muted border border-border grid place-items-center transition group cursor-pointer">
+                          <Twitter className="w-5 h-5 text-muted-foreground group-hover:text-foreground" />
+                        </a>
+                        <a href="https://wa.me/2347016160920" target="_blank" rel="noopener noreferrer" className="h-10 rounded-xl bg-secondary hover:bg-muted border border-border grid place-items-center transition group px-3 cursor-pointer">
+                          <WhatsAppIcon /> <span className="ml-2 text-muted-foreground group-hover:text-foreground text-sm">Contact us via WhatsApp</span>
+                        </a>
+                      </>
+                    )}
                   </div>
                 </div>
               </div>
@@ -124,13 +142,13 @@ export function Footer() {
           <div className="p-8 md:p-12">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
               <div className="text-sm text-muted-foreground">
-                <p>© {new Date().getFullYear()} Al-Ansor Orphan Care Foundation. All rights reserved.</p>
-                <p>A project by the women of Dawah Front of Nigeria (DFN).</p>
+                <p>© {new Date().getFullYear()} Al-Ansor Orphan Care. All rights reserved.</p>
+                <p>A project by the umuhat of Dawah Front of Nigeria (DFN).</p>
               </div>
               <div className="flex items-center gap-6 text-sm">
-                <a href="#" className="text-muted-foreground hover:text-foreground transition">Privacy Policy</a>
+                <Link href="/privacy" className="text-muted-foreground hover:text-foreground transition">Privacy Policy</Link>
                 <span className="text-border">•</span>
-                <a href="#" className="text-muted-foreground hover:text-foreground transition">Terms of Service</a>
+                <Link href="/terms" className="text-muted-foreground hover:text-foreground transition">Terms of Service</Link>
               </div>
               <button onClick={handleScrollTop} className="inline-flex items-center gap-2 rounded-xl bg-secondary hover:bg-muted border border-border px-4 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition">
                 <ArrowUp className="w-4 h-4" />

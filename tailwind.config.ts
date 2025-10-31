@@ -1,3 +1,4 @@
+
 import type {Config} from 'tailwindcss';
 
 export default {
@@ -12,6 +13,9 @@ export default {
       fontFamily: {
         sans: ['"Inter"', 'sans-serif'],
         inter: ['"Inter"', 'sans-serif'],
+        manrope: ['"Manrope"', 'sans-serif'],
+        serif: ['"Cormorant Garamond"', 'serif'],
+        unbounded: ['"Unbounded"', 'sans-serif'],
       },
       colors: {
         background: 'hsl(var(--background))',
@@ -27,6 +31,8 @@ export default {
         primary: {
           DEFAULT: 'hsl(var(--primary))',
           foreground: 'hsl(var(--primary-foreground))',
+          light: 'hsl(var(--primary-light))',
+          dark: 'hsl(var(--primary-dark))',
         },
         secondary: {
           DEFAULT: 'hsl(var(--secondary))',
@@ -87,12 +93,27 @@ export default {
             height: '0',
           },
         },
+        'spin-slow': {
+          to: {
+            transform: 'rotate(360deg)',
+          },
+        },
+        marquee: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        }
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+        'spin-slow': 'spin-slow 3s linear infinite',
+        'marquee': 'marquee 30s linear infinite',
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [
+    require('tailwindcss-animate'),
+    require('@tailwindcss/aspect-ratio'),
+  ],
 } satisfies Config;
+

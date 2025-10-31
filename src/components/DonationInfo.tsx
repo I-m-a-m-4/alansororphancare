@@ -6,7 +6,7 @@ export function DonationInfo() {
     <div className="space-y-8">
       <Card>
         <CardHeader>
-          <CardTitle className="flex items-center gap-3 font-headline">
+          <CardTitle className="flex items-center gap-3">
             <Landmark className="h-6 w-6 text-primary" />
             Bank Transfer
           </CardTitle>
@@ -32,7 +32,7 @@ export function DonationInfo() {
       
       <Card>
         <CardHeader>
-          <CardTitle className="flex items-center gap-3 font-headline">
+          <CardTitle className="flex items-center gap-3">
             <Gift className="h-6 w-6 text-primary" />
             In-Kind Donations
           </CardTitle>
@@ -49,7 +49,7 @@ export function DonationInfo() {
 
       <Card className="bg-primary text-primary-foreground">
         <CardHeader>
-          <CardTitle className="flex items-center gap-3 font-headline">
+          <CardTitle className="flex items-center gap-3">
             <Banknote className="h-6 w-6 text-primary-foreground" />
              A Powerful Reward
           </CardTitle>

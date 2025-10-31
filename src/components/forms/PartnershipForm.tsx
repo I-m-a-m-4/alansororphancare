@@ -43,10 +43,11 @@ export function PartnershipForm() {
       });
       
        try {
-        if(formRef.current) {
+        if(formRef.current && process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID) {
+          // Using the general contact form template as requested
           await emailjs.sendForm(
-            process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
-            process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID_PARTNER || process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+            process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+            process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
             formRef.current,
             process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
           );
