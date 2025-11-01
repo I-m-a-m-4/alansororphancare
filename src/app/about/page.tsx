@@ -2,8 +2,6 @@
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import Image from 'next/image';
 import { Heart, BookOpen, ShieldCheck, Handshake, Users, Eye, TrendingUp, Group } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import Link from 'next/link';
 
 export const metadata = {
   title: 'About Us',
@@ -45,7 +43,7 @@ export default function AboutPage() {
         <div className="container mx-auto max-w-4xl px-6 lg:px-8 text-center">
           <div className="inline-flex border-border bg-card/50 rounded-full mb-6 px-4 py-2 backdrop-blur-sm gap-2 items-center">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
-            <span className="text-sm text-muted-foreground">A Project by the umuhat of Dawah Front of Nigeria (DFN)</span>
+            <span className="text-sm text-muted-foreground">A Sisterhood United for a Cause</span>
           </div>
           <h1 className="text-4xl sm:text-5xl md:text-6xl max-w-3xl mx-auto drop-shadow-xl font-manrope font-semibold tracking-tighter">
             Nurturing the Future of Muslim Orphans with{' '}

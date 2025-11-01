@@ -17,7 +17,7 @@ export function DonationInfo() {
         <CardContent className="space-y-4">
           <div>
             <p className="font-semibold text-primary">Bank Name:</p>
-            <p className="text-muted-foreground">Jaiz Bank Plc</p>
+            <p className="text-muted-foreground">FCMB</p>
           </div>
           <div>
             <p className="font-semibold text-primary">Account Name:</p>
@@ -25,7 +25,7 @@ export function DonationInfo() {
           </div>
           <div>
             <p className="font-semibold text-primary">Account Number:</p>
-            <p className="text-muted-foreground">0001234567 (Example)</p>
+            <p className="text-muted-foreground">2006221118</p>
           </div>
         </CardContent>
       </Card>

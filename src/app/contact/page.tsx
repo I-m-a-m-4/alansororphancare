@@ -23,7 +23,7 @@ export default function ContactPage() {
   return (
     <div className="relative z-10 pt-28">
       <section className="relative py-20 md:py-32 text-center">
-        <div className="container relative z-20">
+        <div className="container relative z-20 mx-auto max-w-4xl px-6 lg:px-8">
           <h1 className="text-4xl md:text-6xl font-manrope tracking-tighter text-foreground mb-4">
             Contact Us
           </h1>
